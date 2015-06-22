@@ -50,5 +50,5 @@ while True:
         spidev.write(column[x])
         spidev.flush()
         #time.sleep(0.001)
-        time.sleep(0.25)
+        time.sleep(0.50)
     #time.sleep(0.5)
